@@ -1,15 +1,7 @@
 package ru.netology.page;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
-import ru.netology.data.CardInfo;
-
-import java.time.Duration;
-
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
 
 public class MainPage {
     private final SelenideElement debitButton = $("[class='button button_size_m button_theme_alfa-on-white']");
